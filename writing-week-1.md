@@ -184,9 +184,9 @@ Operator adalah instruksi yang digunakan untuk suatu proses.
 * not(!)	TRUE jika nilai dari kedua operand tidak cocok
 
 ### Percabangan Pada Javascript
-1. if
+1. if<br>
 Percabangan if merupakan percabangan yang hanya memiliki satu blok pilihan saat kondisi bernilai benar.
-2. if-else
+2. if-else<br>
 if-else merupakan percabangan yang memiliki dua blok pilihan.
 ```
 if (kondisi){
@@ -220,7 +220,7 @@ Pada while loop, perulangan terus dilakukan selama kondisi awal bernilai true.
 ```
 while (condition) statement;
 ```
-3. Do While
+3. Do While<br>
 Pada do while, perulangan terus dilakukan sampai kondisi bernilai false.
 ```
 do

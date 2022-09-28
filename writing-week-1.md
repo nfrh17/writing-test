@@ -50,20 +50,71 @@ git config –list
 HTML (Hypertext Markup Language) adalah bahasa markup yang digunakan untuk membuat halaman website dan menampilkan konten pada browser. Konten yang dapat ditampilkan dapat berupa Text, Image, Video, Link, dan masih banyak lainnya. Untuk membuat HTML diperlukan 2 tools, yaitu browser dan code editor. Visual Studio Code adalah salah satu code editor yang dikembangkan oleh tim engineer Microsoft. Keunggulan Visual Studio Code dapat digunakan di Windows, Mac, dan juga Linux. HTML dapat dijalankan secara manual pada browser atau menggunakan ekstensi live server pada Visual Studio Code.
 
 Tag-tag dasar pada HTML:
-<!DOCTYPE html> — untuk deklarasi tipe dokumen.
-<html> — tag utama dalam HTML.
-<head> — untuk bagian kepala dari dokumen.
-<title> — untuk judul web.
-<body> — untuk bagian body dari dokumen.
+1. ```<!DOCTYPE html>``` — untuk deklarasi tipe dokumen.
+2. ```<html>``` — tag utama dalam HTML.
+3. ```<head>``` — untuk bagian kepala dari dokumen.
+4. ```<title>``` — untuk judul web.
+5. ```<body>``` — untuk bagian body dari dokumen.
+
+Semantik pada HTML adalah elemen-elemen yang menyatakan makna atau tujuan dari elemen itu sendiri. Salah satu keuntungan menggunakan elemen semantik adalah dokumen HTML akan mudah dibaca, baik itu oleh manusia maupun mesin.
+
+Berikut adalah daftar elemen-elemen semantik:
+* ```<article>```  untuk membuat elemen artikel.
+* ```<aside>```  untuk membuat elemen bagian samping.
+* <details>  untuk membuat elemen datail.
+* <figcaption>  untuk membuat teks caption pada figure.
+* <figure>  untuk membuat figur atau gambar pada artikel.
+* <footer>  untuk membuat elemen bagian kaki dari web.
+* <header>  untuk mebuat kepala kop dari web.
+* <main>  untuk membuat elemen utama.
+* <mark>  untuk menandai teks.
+* <nav>  untuk membuat navigasi.
+* <section>  untuk membuat bagian artikel.
+* <summary>  untuk membuat ringkasan artikel.
+* <time>  untuk membuat elemen yang menyatakan waktu
+
+Contoh semantik HTML
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Elemen Semantik</title>
+</head>
+<body>
+  <header>
+    <h1>Semantic HTML</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Contact</a>
+  </nav>
+  <article>
+    <h1>Ini adalah kode semantik HTML</h1>
+    <p>Semantik elemen bertujuan agar dokumen HTML mudah dibaca.</p>
+  </article>
+  <footer>
+    Copyright &copy; 2020
+  </footer>
+</body>
+</html>
+```
+
+Deployment adalah kegiatan yang bertujuan untuk menyebarkan aplikasi yang telah dikerjakan. Kita dapat mendeploy HTML dengan menggunakan Netlify.
 
 ## CSS
 CSS atau Cascading Style Sheets adalah kumpulan perintah yang digunakan untuk menjelaskan tampilan sebuah halaman situs web dalam mark-up language. CSS berfungsi untuk menjelaskan dan menata tampilan elemen yang tertulis pada bahasa markup, salah satunya adalah HTML. Sintaks CSS terdiri dari 3 bagian yaitu selector, property, value. 
 
 Terdapat 3 cara untuk menyisipkan CSS ke dalam HTML di antaranya:
 1. Inline CSS, dengan menambahkan CSS menggunakan atribut style pada tag pembuka elemen HTML.
-``` <p style="padding: 10px; background-color: blue;">Inline CSS</p> ```
+``` 
+<p style="padding: 10px; background-color: blue;">Inline CSS</p> 
+```
 2. Internal CSS, dengan menambahkan CSS menggunakan tag <style> di dalam tag <head>.
-``` <style></style> ```
+``` 
+<style></style> 
+```
 3. External CSS, menambahkan CSS di luar dokumen HTML dan dihubungkan dengan menggunakan tag <link> di dalam elemen <head> yang didefinisikan pada setiap dokumen HTML.
 
 ## Algoritma & Pseudocode
@@ -88,3 +139,4 @@ Ciri dari Pseudocode:
 * Tidak memiliki aturan baku dalam menuliskan pseudocode.
 
 ## Javascript
+Ja

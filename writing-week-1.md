@@ -2,7 +2,7 @@
 ## Git & Github Dasar
 Git merupakan sebuah tools berbasis Version Control System yang biasa digunakan oleh programmer dan developer untuk menjalankan proyek pengembangan software. Git bertugas untuk mencatat setiap perubahan yang terjadi pada file atau repository suatu project. Git biasanya digunakan oleh para programmer sebagai tempat penyimpanan file pemrograman karena lebih efektif. File-file yang disimpan menggunakan git akan terlacak seluruh perubahannya, termasuk siapa yang mengubah. Dengan menggunakan Git dan Github, dapat mempermudah berkolaborasi dalam sebuah tim untuk mengerjakan proyek yang sama. 
 
-1. Instalasi Git dan Setup Awal
+1. Instalasi Git dan Setup Awal<br>
 Untuk mengecek apakah instalasi berhasil dapat dilakukan
 ``` 
 git –version 

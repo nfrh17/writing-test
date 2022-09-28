@@ -215,7 +215,7 @@ switch(variabel){
 ``` 
 for ([initialExpression]; [condition]; [incrementExpression]) statement;
 ```
-2. While
+2. While<br>
 Pada while loop, perulangan terus dilakukan selama kondisi awal bernilai true.
 ```
 while (condition) statement;

@@ -37,12 +37,12 @@ git config –list
 * pwd (print working directory) untuk melihat direktori di mana kita berada.
 * ls (lists) untuk melihat isi dari direktori.
 * cd (change directory) untuk pindah ke direktori lain.
-* touch untuk membuat file
-* mkdir untuk membuat direktori
-* head untuk melihat beberapa line awal dari sebuah file text
-* tail untuk melihat beberapa line awal dari sebuah file text
-* cat untuk melihat isi sebuah file
-* cp untuk menyalin file atau direktori
+* touch untuk membuat file.
+* mkdir untuk membuat direktori.
+* head untuk melihat beberapa line awal dari sebuah file text.
+* tail untuk melihat beberapa line awal dari sebuah file text.
+* cat untuk melihat isi sebuah file.
+* cp untuk menyalin file atau direktori.
 * mv untuk memindahkan dan mengubah nama file atau direktori.
 * rm untuk menghapus file atau direktori.
 

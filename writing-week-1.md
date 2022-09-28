@@ -33,7 +33,7 @@ git config –list
 * Command Line Interface, jenis shell yang berbasis teks
 * Terminal Emulator adalah aplikasi untuk mengakses CLI
 
-## Perintah Dasar CLI (Command Line Interface)
+#### Perintah Dasar CLI (Command Line Interface)
 * pwd (print working directory) untuk melihat direktori di mana kita berada.
 * ls (lists) untuk melihat isi dari direktori.
 * cd (change directory) untuk pindah ke direktori lain.
@@ -140,3 +140,90 @@ Ciri dari Pseudocode:
 
 ## Javascript
 Javascript adalah bahasa pemrograman yang digunakan dalam pengembangan website untuk membuat interaksi pada website agar lebih dinamis. Website dinamis yang dimaksud berarti konten di dalamnya dapat bergerak atau mengubah apapun yang tampak di layar tanpa harus dimuat ulang secara manual. Misalnya seperti konten gambar animasi, maps, slideshow, polling, dan sebagainya.
+
+### Tipe data
+1. Null, tipe data primitive yang nilainya null.
+2. Undefined, tipe data primitive yang nilainya undefined atau tidak terdefinisikan.
+3. Boolean, tipe data yang hanya memiliki dua nilai, yakni true dan false.
+4. Number, tipe data yang mewakili seluruh tipe data angka, seperti integer (bilangan bulat) dan floating point atau desimal.
+5. String, tipe data yang berhubungan dengan karakter.
+6. Symbol, merupakan tipe data baru setelah hadirnya ECMAScript 6 (ES6).
+7. NaN, adalah nilai numeric yang spesial. Digunakan untuk memberitahu bahwa nilai dari variabel tersebut adalah invalid number atau bukan termasuk angka.
+8. Object, merupakan tipe data kompleks yang berisi kumpulan properti (props), setiap properti berisi pasangan key:value.
+
+### Variabel
+Variabel adalah container yang digunakan untuk menyimpan sebuah nilai. Terdapat 3 cara untuk mendefinisikan variabel pada Javascript, yaitu var, let, dan const. Untuk menampilkan isi variabel, bisa digunakan fungsi-fungsi berikut:
+* console.log() menampilkan output ke console javascript;
+* document.write() menampilkan output ke dokumen HTML;
+* alert() menampilkan output ke jendela dialog.
+
+### Operator Pada Javascript
+Operator adalah instruksi yang digunakan untuk suatu proses.
+1. Operator Aritmatika
+* Penjumlahan(+), menjumlahkan 2 operand
+* Pengurangan(-), mengurangi suatu operand dengan operand lainnya
+* Perkalian(*), mengalikan suatu operand dengan operand yang lainnya
+* Pembagian(/), operasi pembagian: suatu operand akan dibagi dengan operand lainnya
+* Modulus(%), menghasilkan sisa bagi dari hasil pembagian suatu operand dengan operand lainnya
+* Increment(++), menambah 1 nilai keatas pada operand/variabel
+* Decrement(--), mengurangi 1 nilai kebawah pada operand/variabel
+
+2. Operator Perbandingan
+* Equal(==)	TRUE jika kedua operand nilainya sama
+* Not Equal(!=)	TRUE jika kedua operand nilainya tidak sama
+* Identical(===)	TRUE jika kedua operand nilainya sama dan dengan tipe data yang sama
+* Not Identical(!==)	TRUE jika ke-2 operand nilainya tidak sama serta bertipe data berbeda
+* Lebih Besar(>)	TRUE jika suatu operand nilainya lebih besar dari operand lainnya.
+* Lebih Kecil(<)	TRUE jika suatu operand nilainya lebih kecil dari operand lainnya
+* Lebih Besar sama dengan(>=)	TRUE jika operand pertama nilainya lebih besar atau sama, dengan operand kedua
+* Lebih Kecil sama dengan(>=)	TRUE jika operand pertama nilainya lebih kecil atau sama, dengan operand kedua
+
+3. Operator Logika
+* and(&&)	TRUE jika kedua operand nilainya cocok, benar(true), misal true && true
+* or(||)	TRUE jika salah satu dari kedua operand bernilai Benar(true).
+* not(!)	TRUE jika nilai dari kedua operand tidak cocok
+
+### Percabangan Pada Javascript
+1. if
+Percabangan if merupakan percabangan yang hanya memiliki satu blok pilihan saat kondisi bernilai benar.
+2. if-else
+if-else merupakan percabangan yang memiliki dua blok pilihan.
+```
+if (kondisi){
+    // blok kode
+}
+else {
+    //blok kode
+}
+```
+3. switch-case
+```
+switch(variabel){
+    case <value>:
+        // blok kode
+        break;
+    case <value>:
+        // blok kode
+        break;
+    default:
+        // blok kode
+}
+```
+
+### Perulangan Pada Javascript
+1. For Loop
+``` 
+for ([initialExpression]; [condition]; [incrementExpression]) statement;
+```
+2. While
+Pada while loop, perulangan terus dilakukan selama kondisi awal bernilai true.
+```
+while (condition) statement;
+```
+3. Do While
+Pada do while, perulangan terus dilakukan sampai kondisi bernilai false.
+```
+do
+  statement
+while (condition);
+```

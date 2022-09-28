@@ -65,7 +65,7 @@ Berikut adalah daftar elemen-elemen semantik:
 * ```<figcaption>```  untuk membuat teks caption pada figure.
 * ```<figure>```  untuk membuat figur atau gambar pada artikel.
 * ```<footer>```  untuk membuat elemen bagian kaki dari web.
-* <header>  untuk mebuat kepala kop dari web.
+* ```<header>```  untuk mebuat kepala kop dari web.
 * ```<main>```  untuk membuat elemen utama.
 * ```<mark>```  untuk menandai teks.
 * ```<nav>```  untuk membuat navigasi.
@@ -111,11 +111,11 @@ Terdapat 3 cara untuk menyisipkan CSS ke dalam HTML di antaranya:
 ``` 
 <p style="padding: 10px; background-color: blue;">Inline CSS</p> 
 ```
-2. Internal CSS, dengan menambahkan CSS menggunakan tag <style> di dalam tag <head>.
+2. Internal CSS, dengan menambahkan CSS menggunakan tag ```<style>``` di dalam tag ```<head>```.
 ``` 
 <style></style> 
 ```
-3. External CSS, menambahkan CSS di luar dokumen HTML dan dihubungkan dengan menggunakan tag <link> di dalam elemen <head> yang didefinisikan pada setiap dokumen HTML.
+3. External CSS, menambahkan CSS di luar dokumen HTML dan dihubungkan dengan menggunakan tag ```<link>``` di dalam elemen ```<head>``` yang didefinisikan pada setiap dokumen HTML.
 
 ## Algoritma & Pseudocode
 Algoritma adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. Bagi programmer, algoritma akan memudahkan mereka melakukan tracking kesalahan-kesalahan (error) yang timbul.

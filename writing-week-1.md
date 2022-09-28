@@ -1,4 +1,4 @@
-# <center>WRITING TEST - WEEK 1
+# WRITING TEST - WEEK 1
 ## Git & Github Dasar
 Git merupakan sebuah tools berbasis Version Control System yang biasa digunakan oleh programmer dan developer untuk menjalankan proyek pengembangan software. Git bertugas untuk mencatat setiap perubahan yang terjadi pada file atau repository suatu project. Git biasanya digunakan oleh para programmer sebagai tempat penyimpanan file pemrograman karena lebih efektif. File-file yang disimpan menggunakan git akan terlacak seluruh perubahannya, termasuk siapa yang mengubah. Dengan menggunakan Git dan Github, dapat mempermudah berkolaborasi dalam sebuah tim untuk mengerjakan proyek yang sama. 
 
@@ -10,7 +10,7 @@ git –version
 
 Setelah itu lakukan setup awal pada git 
 ``` 
-git config –global user.name “nama”</sub>
+git config –global user.name “nama”
 git config –global user.email “contoh@email.com”
 ```
 
@@ -47,7 +47,24 @@ git config –list
 * rm untuk menghapus file atau direktori.
 
 ## HTML
+HTML (Hypertext Markup Language) adalah bahasa markup yang digunakan untuk membuat halaman website dan menampilkan konten pada browser. Konten yang dapat ditampilkan dapat berupa Text, Image, Video, Link, dan masih banyak lainnya. Untuk membuat HTML diperlukan 2 tools, yaitu browser dan code editor. Visual Studio Code adalah salah satu code editor yang dikembangkan oleh tim engineer Microsoft. Keunggulan Visual Studio Code dapat digunakan di Windows, Mac, dan juga Linux. HTML dapat dijalankan secara manual pada browser atau menggunakan ekstensi live server pada Visual Studio Code.
 
+Tag-tag dasar pada HTML:
+<!DOCTYPE html> — untuk deklarasi tipe dokumen.
+<html> — tag utama dalam HTML.
+<head> — untuk bagian kepala dari dokumen.
+<title> — untuk judul web.
+<body> — untuk bagian body dari dokumen.
+
+## CSS
+CSS atau Cascading Style Sheets adalah kumpulan perintah yang digunakan untuk menjelaskan tampilan sebuah halaman situs web dalam mark-up language. CSS berfungsi untuk menjelaskan dan menata tampilan elemen yang tertulis pada bahasa markup, salah satunya adalah HTML. Sintaks CSS terdiri dari 3 bagian yaitu selector, property, value. 
+
+Terdapat 3 cara untuk menyisipkan CSS ke dalam HTML di antaranya:
+1. Inline CSS, dengan menambahkan CSS menggunakan atribut style pada tag pembuka elemen HTML.
+``` <p style="padding: 10px; background-color: blue;">Inline CSS</p> ```
+2. Internal CSS, dengan menambahkan CSS menggunakan tag <style> di dalam tag <head>.
+``` <style></style> ```
+3. External CSS, menambahkan CSS di luar dokumen HTML dan dihubungkan dengan menggunakan tag <link> di dalam elemen <head> yang didefinisikan pada setiap dokumen HTML.
 
 ## Algoritma & Pseudocode
 Algoritma adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. Bagi programmer, algoritma akan memudahkan mereka melakukan tracking kesalahan-kesalahan (error) yang timbul.

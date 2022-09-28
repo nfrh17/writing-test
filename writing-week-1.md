@@ -19,7 +19,7 @@ Untuk mengecek apakah setup awal telah berhasil dapat dilakukan
 git config –list 
 ```
 
-## Basic Git Command
+2. Basic Git Command
 * git status, digunakan untuk menampilkan daftar file yang berubah bersama dengan file yang ingin ditambahkan atau di-commit.
 * git init namaproject, untuk membuat repository
 * git add, digunakan untuk menambahkan file baru di repository yang dipilih.
@@ -61,17 +61,17 @@ Semantik pada HTML adalah elemen-elemen yang menyatakan makna atau tujuan dari e
 Berikut adalah daftar elemen-elemen semantik:
 * ```<article>```  untuk membuat elemen artikel.
 * ```<aside>```  untuk membuat elemen bagian samping.
-* <details>  untuk membuat elemen datail.
-* <figcaption>  untuk membuat teks caption pada figure.
-* <figure>  untuk membuat figur atau gambar pada artikel.
-* <footer>  untuk membuat elemen bagian kaki dari web.
+* ```<details>```  untuk membuat elemen datail.
+* ```<figcaption>```  untuk membuat teks caption pada figure.
+* ```<figure>```  untuk membuat figur atau gambar pada artikel.
+* ```<footer>```  untuk membuat elemen bagian kaki dari web.
 * <header>  untuk mebuat kepala kop dari web.
-* <main>  untuk membuat elemen utama.
-* <mark>  untuk menandai teks.
-* <nav>  untuk membuat navigasi.
-* <section>  untuk membuat bagian artikel.
-* <summary>  untuk membuat ringkasan artikel.
-* <time>  untuk membuat elemen yang menyatakan waktu
+* ```<main>```  untuk membuat elemen utama.
+* ```<mark>```  untuk menandai teks.
+* ```<nav>```  untuk membuat navigasi.
+* ```<section>```  untuk membuat bagian artikel.
+* ```<summary>```  untuk membuat ringkasan artikel.
+* ```<time>```  untuk membuat elemen yang menyatakan waktu
 
 Contoh semantik HTML
 ```
@@ -139,4 +139,4 @@ Ciri dari Pseudocode:
 * Tidak memiliki aturan baku dalam menuliskan pseudocode.
 
 ## Javascript
-Ja
+Javascript adalah bahasa pemrograman yang digunakan dalam pengembangan website untuk membuat interaksi pada website agar lebih dinamis. Website dinamis yang dimaksud berarti konten di dalamnya dapat bergerak atau mengubah apapun yang tampak di layar tanpa harus dimuat ulang secara manual. Misalnya seperti konten gambar animasi, maps, slideshow, polling, dan sebagainya.

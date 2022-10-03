@@ -3,10 +3,8 @@
 Scope adalah konsep dalam flow data variabel. Menentukan suatu variabel bisa diakses pada scope tertentu atau tidak. Terdapat tiga jenis scope dalam Javascript, yaitu global scope, local scope, dan block scope.
 1. Block Scope
 Blocks adalah code yang berada didalam curly braces {}. Pada conditional, function, dan looping menggunakan blocks.
-
 2. Global Scope
 Global scope berarti variabel yang kita buat dapat diakses dan dimodifikasi dimanapun dalam suatu file. Agar menjadi Global Scope, suatu variabel harus dideklarasikan diluar blocks. Variabel yang dideklarasikan dalam global scope biasa disebut variabel global.
-
 Contoh global scope:
 ```
 let myName = 'Raisha';
@@ -17,7 +15,6 @@ function greeting() {
 
 console.log(myName); // Raisha
 ```
-
 3. Local Scope
 Local scope berarti kita mendeklarasikan variabel didalam blocks seperti function, conditional, dan looping. Maka variabel hanya bisa diakses didalam blocks saja, tidak bisa diakses diluar blocks.
 
@@ -106,6 +103,11 @@ const penambahan = (a, b) => {
 ```
 
 ## Data Type Built in Prototype & Method
+* Data Type
+* String
+* Number
+* Math
+* Primitive & Non Primitive
 
 ## DOM
 DOM merupakan kependekan dari Document Object Model yang bisa digunakan untuk memanipulasi halaman web HTML agar tampilan website lebih interaktif dan dinamis.
@@ -116,3 +118,28 @@ DOM merupakan kependekan dari Document Object Model yang bisa digunakan untuk me
 3. Mengambil Elemen dengan Nama Tag dengan ``` document.getElementByTagName ```
 4. Mengambil Elemen dengan querySelector ``` document.querySelector ```
 5. Mengambil Elemen dengan querySelectorAll ``` document.querySelectorAll ```
+
+* Mengubah Konten Element HTML
+1. ``` Element.textContent ``` dapat digunakan untuk mengubah teks di dalam sebuah statement.
+2. ``` Element.innerHTML ``` dapat digunakan untuk mengubah konten HTML di dalam sebuah statement.
+
+* Membuat Elemen HTML
+```
+const heading = document.createElement("h1")
+heading.textContent = "Ini Heading"
+
+document.getElemntByID("header").appendChild(heading)
+```
+
+* HTML DOM Events
+1. Click
+2. Scroll
+3. Change
+4. Focus
+5. Hover
+6. Submit
+7. Blur
+
+* Menangkap Interaksi User
+1. Element.addEventListener("event)
+2. Element.onevent

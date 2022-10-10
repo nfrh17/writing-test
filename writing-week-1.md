@@ -95,7 +95,7 @@ Contoh semantik HTML
     <p>Semantik elemen bertujuan agar dokumen HTML mudah dibaca.</p>
   </article>
   <footer>
-    Copyright &copy; 2020
+    Copyright ``` &copy; ``` 2020
   </footer>
 </body>
 </html>

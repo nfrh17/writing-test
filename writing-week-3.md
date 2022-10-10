@@ -107,3 +107,53 @@ let person = {
 console.log(person.name); //John Doe
 ```
 
+### Update Object
+```
+let person = {
+    name = 'John Doe',
+    age: 25,
+    isVerified: true,
+}
+
+//update key yang sudah ada dengan value yang baru
+person.age = 27;
+
+//menambah key dan value baru
+person.address = "London, UK";
+
+console.log(person);
+```
+
+### Delete Object
+```
+let person = {
+    name = 'John Doe',
+    age: 25,
+    isVerified: true,
+}
+
+delete person.age;
+
+console.log(person);
+```
+
+## Recursive
+Recursive adalah function yang memanggil dirinya sendiri sampai kondisi tertentu. Recursive kebanyakan digunakan untuk case matematika, fisika, kimia, dan yang berhubungan dengan calculation.
+
+Contoh rekursif
+```
+function pow(x,n) {
+    if (n ==1) {
+        return x;
+        }
+        else {
+            return x * pow(x, n -1);
+        }
+    }
+}
+
+console.log(pow(2,3)); //8
+```
+
+Recursive akan berhenti memanggil dirinya sendiri jika kondisi terpenuhi.
+

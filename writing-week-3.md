@@ -157,3 +157,61 @@ console.log(pow(2,3)); //8
 
 Recursive akan berhenti memanggil dirinya sendiri jika kondisi terpenuhi.
 
+## Asynchronus
+Asynchronous mengizinkan komputer memproses task yang lain sambil menunggu proses yang masih berlangsung. Pada Javascript, kita bisa membuat asynchronous secara simulasi artinya tidak murni asynchronous dengan beberapa cara:
+
+* Callback
+Callback function adalah function yang kita letakan di dalam argumen/parameter pada function, dan function tersebut akan dieksekusi setelah function pertama menyelesaikan tugasnya.
+
+Contoh Function
+```
+const mainFunc = (number1,number2,callBack) => {
+  console.log(number1 + number2)
+  callBack()
+}
+
+const myCallback =() =>{
+  console.log ('Done!')
+}
+```
+main(1,2,myCallback) //output 3 Done!
+
+* Promise
+Promise adalah salah satu fitur baru di ES6, biasa digunakan untuk melakukan http request/fetch data dari API. Promise memiliki 3 kemungkinan state.
+1. Pending(sedang dalam proses)
+2. Fulfilled (berhasil)
+3. Rejected (gagal)
+
+Contoh Promise
+```
+const contohPromise = () => {
+    new Promise((resolve, reject) => {
+        if(condition){
+            resolve('request fulfilled')
+        }
+        else {
+            reject(new Error('terjadi kesalahan, reject))
+        }
+    }).then(result => console.log(result))
+    .catch(error => console.log(error))
+}
+contohPromise()
+```
+
+* Async/Await
+Async - await adalah salah satu fitur baru dari javascript yang digunakan untuk menangani hasil dari sebuah Promise. Sedangkan await berfungsi untuk menunda sebuah kode dijalankan sampai proses asynchronous berhasil.
+
+Contoh Async/Await
+```
+//es6
+const hello = async(){
+    let result = await 'Hello!!!"
+    return result
+}
+```
+
+### HTTP Request fetch()
+Fetch adalah native web API untuk melakukan HTTP calls dari external network.
+
+## Web Storage
+Web Storage atau biasanya dapat diketahui sebagai DOM storage (Document Object Model Storage), adalah metode yang digunakan pada website untuk dapat menyimpan data pada sisi klien (client-side). Web Storage itu ada dua jenisnya yaitu localStorage dan sessionStorage. LocalStorage digunakan untuk menyimpan data pada browser dan data akan tetap tersimpan walaupun browser ditutup atau komputer dimatikan sekalipun. Sedangkan sessionStorage digunakan untuk menyimpan data pada browser hanya pada satu sesi dan data akan dihapus ketika browser ditutup.

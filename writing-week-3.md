@@ -160,7 +160,7 @@ Recursive akan berhenti memanggil dirinya sendiri jika kondisi terpenuhi.
 ## Asynchronus
 Asynchronous mengizinkan komputer memproses task yang lain sambil menunggu proses yang masih berlangsung. Pada Javascript, kita bisa membuat asynchronous secara simulasi artinya tidak murni asynchronous dengan beberapa cara:
 
-* Callback
+* Callback<br>
 Callback function adalah function yang kita letakan di dalam argumen/parameter pada function, dan function tersebut akan dieksekusi setelah function pertama menyelesaikan tugasnya.
 
 Contoh Function
@@ -173,10 +173,11 @@ const mainFunc = (number1,number2,callBack) => {
 const myCallback =() =>{
   console.log ('Done!')
 }
-```
-main(1,2,myCallback) //output 3 Done!
 
-* Promise
+main(1,2,myCallback) //output 3 Done!
+```
+
+* Promise<br>
 Promise adalah salah satu fitur baru di ES6, biasa digunakan untuk melakukan http request/fetch data dari API. Promise memiliki 3 kemungkinan state.
 1. Pending(sedang dalam proses)
 2. Fulfilled (berhasil)
@@ -198,7 +199,7 @@ const contohPromise = () => {
 contohPromise()
 ```
 
-* Async/Await
+* Async/Await<br>
 Async - await adalah salah satu fitur baru dari javascript yang digunakan untuk menangani hasil dari sebuah Promise. Sedangkan await berfungsi untuk menunda sebuah kode dijalankan sampai proses asynchronous berhasil.
 
 Contoh Async/Await

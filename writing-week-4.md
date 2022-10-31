@@ -26,3 +26,8 @@ Media query digunakan untuk membuat beberapa styles tergantung pada jenis device
 
 ## Bootstrap
 Bootstrap adalah framework HTML, CSS, dan JavaScript yang berfungsi untuk mendesain website responsive dengan cepat dan mudah. Framework open source ini diciptakan pada tahun 2011 oleh Mark Otto dan Jacob Thornton dari Twitter. Itulah kenapa dulunya Bootstrap dinamakan Twitter Blueprint.
+
+Cara menggunakan Bootstrap<br>
+1. Download filenya terlebih dahulu di getbootstrap.com
+2. Ekstrak file .zip yang telah didownload tadi
+3. Setelah itu kita bisa memanggil file tersebut dan menerapkannya di website yang sudah dibangin sebelumnya

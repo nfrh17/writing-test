@@ -5,7 +5,7 @@ Web Server merupakan suatu software yang dijalankan di komputer server. Web serv
 ### Server Side Programming
 Server side programming atau pemrograman sisi server adalah suatu program yang berjalan di server yang menangani pembuatan konten halaman website yang memiliki fungsi berbeda dengan client side. Pemrograman sisi server merupakan sistem yang berjalan di server, sedang client side merupakan sistem yang berjalan di web browser pengguna. Para pengembang sisi server memiliki tugas untuk merancang, membangun, dan memelihara kode agar sistem dapat berjalan dengan semestinya di server aplikasi. Pemrograman sisi server akan memproses user input, berinteraksi dengan database, dan mengontrol konten apa yang akan disajikan sebagai respon dari permintaan user. Program ini juga bisa membantu meningkatkan pengalaman pengguna dengan cara mengirimkan konten yang sesuai dengan apa yang diinginkan atau diminta oleh user tersebut.
 
-## Nodejs
+## Intro Node JS
 Node.js adalah runtime environment untuk JavaScript yang bersifat open-source dan cross-platform di mana Node.js merupakan bahasa pemrograman Javascript sisi server yang dibangun di Google Chrome V8 JavaScript Engine. Kelebihan dari Node.js adalah bisa menggunakan Javascript untuk rendering front-end dan menggunakannya kembali di sisi back-end. Node.js sering digunakan para developer untuk mengembangkan konsol, desktop, website, serta web app. Ketika menghandle file request, Node.js bisa menghilangkan proses menunggu sehingga dapat menangani file request selanjutnya dengan cepat.
 
 ### Node JS Architecture
@@ -161,4 +161,3 @@ Menentukan Entity & Attributes<br>
 2. List entity yang ada.
 3. Pada tahap menentukan Atrributes, tentukan attributes apa saja yang datanya akan disimpan di dalam sebuah entity.
 4. Attributes yang diperlukan didalam entity kemungkinan sudah ada di dalam requirements document, atau mungkin juga diperlukan penafsiran kita sendiri sebagai database developer.
-

@@ -21,7 +21,7 @@ Responsive Web Design (RWD) bertujuan untuk membuat desain website kita dapat di
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 2. Gunakan elemen max-width
-3. Gunakan media query
+3. Gunakan media query<br>
 Media query digunakan untuk membuat beberapa styles tergantung pada jenis device. Media query untuk responsive web design umumnya hanya menggunakan 2 jenis media query, yaitu min-width dan max-width
 
 ## Bootstrap
